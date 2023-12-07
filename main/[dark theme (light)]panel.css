@@ -1,0 +1,128 @@
+:root {
+  --REWS_main-x: 50px;
+  --REWS_main-y: 50px;
+}
+
+#REWS_main-body {
+  left: var(--main-x);
+  top: var(--main-y);
+  position: fixed;
+  width: 750px;
+  border: 1px solid silver;
+  background-color: rgba(27, 27, 27, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  z-index: 700;
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/1.png?v-1691053381869), auto;
+  color: white;
+  font-family: Arimo, sans-serif;
+  font-size: 13px;
+}
+
+#REWS_main-top {
+  height: 15px;
+  width: 740px;
+  border: 0px solid silver;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  background-color: rgba(60, 60, 60, 0.7);
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/5.png?v=1691053381869), auto;
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.REWS_alert-text {
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
+
+.REWS_main-column {
+  height: 50%;
+  width: 250px;
+  display: flex;
+  veritcal-align: top;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 7px;
+}
+
+.REWS_main-separator {
+  color: silver;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.REWS_addon-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.REWS_addon-cursor {
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/5.png?v=1691053381869), auto;
+}
+
+.REWS_addon-title {
+  display: flex;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.REWS_addon-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.REWS_addon-button {
+  width: 120px;
+  height: 22px;
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/5.png?v=1691053381869), auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.REWS_addon-settings-main-body {
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  width: 200px;
+  border: 1px solid silver;
+  background-color: rgba(27, 27, 27, 0.4);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  z-index: 700;
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/1.png?v-1691053381869), auto;
+  color: white;
+  font-family: Arimo, sans-serif;
+  font-size: 13px;
+}
+
+.REWS_addon-settings-top {
+  height: 15px;
+  width: 190px;
+  border: 0px solid silver;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  background-color: rgba(60, 60, 60, 0.7);
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/5.png?v=1691053381869), auto;
+  padding: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.REWS_addon-settings-close {
+  left: calc(100% - 22px);
+  position: absolute;
+  cursor: url(https://nubes.margonem.pl/img/gui/cursor/5.png?v=1691053381869), auto;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
